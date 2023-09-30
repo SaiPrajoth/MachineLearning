@@ -34,5 +34,3 @@ We thank all contributors for their valuable work on these projects, making this
 Happy exploring and learning!
 
 ---
-
-Feel free to customize this README to include specific project names, descriptions, and acknowledgments as needed.
