@@ -1,4 +1,4 @@
-Certainly, here's the explanation for multiple linear regression with the boldness removed:
+
 
 Multiple Linear Regression (Brief Definition):
 Multiple linear regression is a supervised machine learning method used to model the relationship between a dependent variable (target) and multiple independent variables (features) by fitting a linear equation to the observed data. It aims to find the best-fitting hyperplane that minimizes the error between predicted and actual values.
