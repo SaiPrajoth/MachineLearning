@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../frontend.css">
+  <style>
+    /* Custom CSS to vertically center the content */
+    .centered-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    /* Add some spacing between input tags */
+    .form-control {
+      margin-bottom: 15px;
+    }
+    /* Customize the footer */
+    .footer {
+      text-align: center;
+      background-color: #f8f9fa;
+      padding: 10px 0;
+    }
+  </style>
+  <title>IRIS Flower Data Prediction</title>
+</head>
+<body>
+  <form action="/predict" method="POST">
+    <div class="container centered-content">
+        <div class="text-center">
+          <h1>IRIS FLOWER DATA PREDICTION</h1>
+          <p class="lead">This is a machine learning logistic regression model.</p>
+        </div>
+    
+        <input type="text" name="sepal-length" class="form-control" placeholder="Enter Sepal Length" required>
+        <input type="text" name="sepal-width" class="form-control" placeholder="Enter Sepal Width" required>
+        <input type="text" name="petal-length" class="form-control" placeholder="Enter Petal Length" required>
+        <input type="text" name="petal-width" class="form-control" placeholder="Enter Petal Width" required>
+        
+        <button type="submit" class="btn btn-primary btn-lg centered-button">Submit</button>
+
+        <div class="prediction-div">{{prediction}}</div>
+      </div>
+  </form>
+
+  <footer class="footer">
+    <p>© 2023 IRIS Flower Data Prediction</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
