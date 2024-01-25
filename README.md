@@ -2,7 +2,7 @@
 
 # Machine Learning Repository
 
-
+Welcome to the Machine Learning Repository! This repository houses a collection of machine learning projects, code, and related files. Whether you're a data enthusiast, a student, or a seasoned practitioner, you'll find a variety of projects here to explore and learn from.
 
 ## Projects
 
